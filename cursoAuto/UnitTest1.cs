@@ -24,7 +24,6 @@ namespace cursoAuto
         public void tearDown()
         {
             driver?.Quit();
-
             driver?.Dispose();
         }
 
